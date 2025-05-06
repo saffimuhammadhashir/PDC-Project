@@ -1,0 +1,17 @@
+Run Type,Community ID,Tensors,Contraction Time (s)
+Naive,0,1,0.0245
+Naive,1,2,0.0740
+Naive,2,1,0.0120
+Naive,3,2,0.0295
+Naive,4,1,0.0080
+Naive,5,10,0.2111
+Naive,6,1,0.0040
+Naive,7,1,0.0310
+MPI + Open CL,0,1,0.0050
+MPI + Open CL,1,2,0.0575
+MPI + Open CL,2,1,0.0030
+MPI + Open CL,3,2,0.0120
+MPI + Open CL,4,1,0.0020
+MPI + Open CL,5,10,0.0785
+MPI + Open CL,6,1,0.0010
+MPI + Open CL,7,1,0.0080

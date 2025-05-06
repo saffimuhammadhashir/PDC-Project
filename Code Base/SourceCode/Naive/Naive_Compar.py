@@ -159,7 +159,7 @@ class TensorNetwork:
 
 
 
-    def compute_tensor_matrix(self, tensor, out_dim=16):
+    def compute_tensor_matrix(self, tensor, out_dim=256):
         """
         Compute a fixed-size matrix approximation (out_dim x out_dim) for a tensor.
         Prevents shape mismatch in downstream matrix contractions.

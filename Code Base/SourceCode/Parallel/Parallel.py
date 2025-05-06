@@ -197,7 +197,7 @@ class TensorNetwork:
 
 
 
-    def compute_tensor_matrix(self, tensor, out_dim=512):
+    def compute_tensor_matrix(self, tensor, out_dim=16):
 
         matrix = np.zeros((out_dim, out_dim))
 
